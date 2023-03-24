@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+
+body{
+   background: #E5E5E5;
+}
+.head {
+   display: flex;
+   height: 100px;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0% 8%;
+}
+.title{
+   font-family: 'Poppins', sans-serif;
+   font-size: 30px;
+   line-height: 45px;
+   font-weight: 700;
+   color: #91916C;
+}
+#menu__toggle{
+   visibility: hidden;
+}
+.menu__box{
+   display: flex;
+}
+.menu__box li{
+   list-style-type: none;
+}
+.menu__item{
+   font-family: 'Nunito Sans', sans-serif;
+   text-decoration: none;
+   color: black;
+   margin-left: 76px;
+   font-size: 20px;
+   line-height: 27px;
+   font-weight: 400;
+   cursor: pointer;
+}
+.menu__item:hover{
+   text-decoration: underline 2px rgb(78, 78, 236);
+}
+
+
+.leavtheroad{
+   display: flex;
+   margin-top: 66px;
+   width: 100%;
+}
+.t-shirt {
+   height: 100%;
+   max-width: 850px;
+}
+.clothing {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 56px;
+   line-height: 78px;
+   letter-spacing: 0.02em;
+   color: #E5A985;
+   margin-top: 100px;
+}
+.fashion {
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 41px;
+   letter-spacing: 0.02em;
+   color: #4A4747;
+   margin-top: 40px;
+}
+.email-shop{
+   display: flex;
+   align-items: center;
+   margin-top: 70px;
+}
+#email{
+   width: 465px;
+   height: 58px;
+   background: #E5E5E5;
+   border-radius: 8px 0px 0px 8px;
+   border-color: #807f7f;
+}
+#email::placeholder{
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 27px;
+   color: #C4C4C4;
+   padding-left: 30px;
+}
+.shop{
+   width: 160px;
+   height: 58px;
+   background: #91916C;
+   border-color: #91916C;
+   border-radius: 0px 8px 8px 0px;
+   cursor: pointer;
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 27px;
+   color: #FFFFFF;
+   margin-left: 15px;
+}
+
+.leavtheroad section{
+   margin-left: 100px;
+}
+
+.product {
+   background: #E1E1C2;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.name {
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 44px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   color: #91916C;
+   margin-top: 120px;
+}
+.line {
+   border: 3px solid #91916C;
+   width: 290px;
+   margin-top: 25px;
+}
+.hola {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 67px;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: #65653E;
+   margin-top: 50px;
+}
+.swiper {
+   margin: 70px 0px;
+}
+.swiper-slide{
+   display: flex;
+   justify-content: center;
+}
+.swiper-slide img{
+   width: 80%;
+   height: 100%;
+}
+.text-swp{
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 28px;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: #333333;
+   margin-bottom: 70px;
+}
+.swiper-button-prev {
+   background: #E5A985;
+   border-radius: 50%;
+   width: 58px;
+   height: 58px;
+}
+.swiper-button-next {
+   background: #E5A985;
+   border-radius: 50%;
+   width: 58px;
+   height: 58px;
+}
+.swiper {
+   width: 80%;
+   height: 600px;
+}
+
+.swiper-button-prev::after {
+   font-size: medium;
+   font-weight: 600;
+   color: white;
+}
+.swiper-button-next::after {
+   font-size: medium;
+   font-weight: 600;
+   color: white;
+}
+.services {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.card-block{
+   display: flex;
+}
+.serv-hola {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 67px;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: #E5A985;
+   margin: 50px 0px 70px 0px;
+}
+.hola-card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: #FAE3D8;
+   border-radius: 20px;
+   margin: 0px 13px;
+   transition: all 1s ease;
+}
+.hola-card:hover{
+   transform:translateY(-30px);
+   cursor: pointer;
+   background: #91916C;
+   box-shadow: 10px 10px 35px 2px rgba(89, 56, 14, 0.1);
+}
+.card-text:hover{
+   color: #FFFFFF;
+}
+.card-jpg{
+   border-radius: 20px;
+   height: 360px;
+}
+.card-text {
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 33px;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: #000000;
+   padding: 30px 0px;
+   transition: all 0.1s ease;
+}
+
+.blog {
+   background: #FFEFE7;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 90px;
+}
+.blog-name {
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 44px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   color: #BD957E;
+   margin-top: 70px;
+}
+.blog-line {
+   width: 288px;
+   height: 0px;
+   border: 2px solid #B38F79;
+   margin-top: 25px;
+}
+.blog-hola {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 67px;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: #795744;
+   margin-top: 70px;
+}
+
+.fashion-block {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: 55px 0px;
+}
+.fashion-card {
+   display: flex;
+   align-items: center;
+   width:calc(100%/4 - 1px);
+   margin: 35px 25px;
+}
+.fash-text {
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 34px;
+   letter-spacing: 0.02em;
+   color: #333333;
+   margin-left: 30px;
+}
+.contact {
+   width: 100%;
+   height: 240px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.cont-us {
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 44px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   color: #91916C;
+}
+.cont-line {
+   width: 288px;
+   height: 0px;
+   border: 2px solid #91916C;
+   margin-top: 20px;
+}
+
+.hesitate{
+   background: #91916C;
+   padding-top: 45px;
+}
+.hes-name{
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 67px;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: #FFFFFF;
+   margin-bottom: 20px;
+}
+.form{
+   display: flex;
+   justify-content: center;
+   position: relative;
+}
+.form-list{
+   margin-top: 170px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   z-index: 2;
+}
+.footer-img{
+   left: 160px;
+   bottom: -70px;
+   position: absolute;
+   z-index: 1;
+}
+#name{
+   width: 299px;
+   height: 58px;
+   background: rgba(225, 225, 194, 0.4);
+   border-radius: 8px;
+   margin: 0px 5px;
+   cursor: pointer;
+}
+#name::placeholder{
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   color: #FFFFFF;
+   padding-left: 25px;
+}
+.email-subject #email {
+   width: 620px;
+   height: 58px;
+   background: rgba(225, 225, 194, 0.4);
+   border-radius: 8px;
+   margin-top: 30px;
+   cursor: pointer;
+}
+.email-subject #email::placeholder{
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   color: #FFFFFF;
+   padding-left: 25px;
+}
+.send {
+   max-width: 620px;
+   height: 58px;
+   background: #E5A985;
+   border-radius: 8px;
+   border-color: #E5A985;
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 27px;
+   color: #FFFFFF;
+   cursor: pointer;
+   margin: 30px 0px 160px 0px;
+}
+#subject{
+   resize: none;
+   width: 620px;
+   height: 58px;
+   background: rgba(225, 225, 194, 0.4);
+   border-radius: 8px;
+   margin-top: 30px;
+   cursor: pointer;
+}
+#subject::placeholder{
+   align-items: center;
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   color: #FFFFFF;
+   padding-left: 25px;
+}
+
+.footer{
+   width: 100%;
+   height: 80px;
+}
+
+
+@media (max-width: 1199px) {
+   .head {
+      padding: 0% 6%;
+   }
+   .t-shirt{
+      height: 700px;
+   }
+   .clothing{
+      margin-top: 0px;
+   }
+   .leavtheroad section{
+      margin-left: 50px;
+   }
+   .name{
+      margin-top: 80px;
+   }
+   .line{
+      margin-top: 20px;
+   }
+   .hola{
+      margin-top: 40px;
+   }
+   .swiper{
+      width: 90%;
+      margin: 50px 0px;
+   }
+   .blog-hola{
+      margin-top: 40px;
+   }
+   .fashion-card{
+      display: block;
+      text-align: center;
+   }
+   .fash-text{
+      margin-left: 0px;
+   }
+   .contact{
+      height: 180px;
+   }
+   .form{
+      justify-content: right;
+      margin-right: 50px;
+   }
+   .footer-img{
+      left: 30px;
+      bottom: -60px;
+   }
+   .form-list{
+      margin-top: 120px;
+   }
+}
+
+
+@media (max-width: 991px) {
+   .menu__item{
+      margin-left: 40px;
+   }
+   .head {
+      padding: 0% 2%;
+   }
+   .leavtheroad {
+      margin-top: 40px;
+   }
+   .t-shirt{
+      height: 600px;
+   }
+   .clothing{
+      font-size: 48px;
+   }
+   #email{
+      width: 350px;
+   }
+   .fashion{
+      font-size: 22px;
+   }
+   .swiper{
+      height: 400px;
+   }
+   .serv-hola {
+      margin: 50px 0px 40px 0px;
+   }
+   .card-block{
+      display: block;
+   }
+   .hola-card{
+      flex-direction: row;
+      margin: 20px 0px;
+   }
+   .blog{
+      margin-top: 50px;
+   }
+   .footer-img{
+      left: -200px;
+   }
+}
+
+
+@media (max-width: 767px) {
+   #menu__toggle {
+      opacity: 0;
+   }
+   .menu__btn {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 40px;
+      right: 20px;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      z-index: 2;
+   }
+   .menu__btn > span,
+   .menu__btn > span::before,
+   .menu__btn > span::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      background-color:#91916C;
+   }
+   .menu__btn > span::before {
+      content: '';
+      top: -8px;
+   }
+   .menu__btn > span::after {
+      content: '';
+      top: 8px;
+   }
+   .menu__box {
+   display: block;
+   position: absolute;
+   visibility: hidden;
+   top: 0;
+   right: -100%;
+   width: 100%;
+   height: 200px;
+   margin: 0;
+   padding: 80px 0;
+   list-style: none;
+   text-align: center;
+   background-color: #ECEFF1;
+   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+   z-index: 1;
+}
+   .menu__item {
+   display: block;
+   padding: 12px 24px;
+   color: #555555;
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   font-weight: 600;
+   text-decoration: none;
+}
+   .menu__item:hover {
+   background-color: #CFD8DC;
+}
+   #menu__toggle:checked ~ .menu__btn > span {
+   transform: rotate(45deg);
+}
+   #menu__toggle:checked ~ .menu__btn > span::before {
+   top: 0;
+   transform: rotate(0);
+}
+   #menu__toggle:checked ~ .menu__btn > span::after {
+   top: 0;
+   transform: rotate(90deg);
+}
+   #menu__toggle:checked ~ .menu__box {
+   visibility: visible;
+   right: 0;
+}
+   .title{
+      z-index: 5;
+   }
+   .leavtheroad section br{
+      display: none;
+   }
+   .t-shirt{
+      height: 400px;
+   }
+   .email-shop{
+      display: block;
+      margin-top: 10px;
+   }
+   .shop{
+      margin-left: 0px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+   }
+   .fashion{
+      font-size: 20px;
+   }
+   .swiper{
+      width: 100%;
+   }
+   .footer-img{
+      visibility: hidden;
+   }
+   .form-list{
+      margin-top: 50px;
+   }
+   .form{
+      justify-content: center;
+      margin-right: 0px;
+   }
+   .hola-card:hover{
+      transform: none;
+   }
+}
+
+@media (max-width: 575px) {
+   .leavtheroad{
+      display: block;
+      text-align: center;
+   }
+   .t-shirt{
+      height: 600px;
+   }
+   .leavtheroad section{
+      margin-left: 0px;
+   }
+   .hola-card img{
+      height: 300px;
+   }
+   .card-jpg{
+      height: 300px;
+   }
+   .first-name{
+      text-align: center;
+   }
+   #name{
+      max-width: 40%;
+      margin: 0px 10px;
+   }
+   #subject{
+      max-width: 80%;
+   }
+   .email-subject #email{
+      max-width: 80%;
+   }
+   .email-subject{
+      text-align: center;
+   }
+   .send {
+      margin: 30px 0px 30px 0px;
+   }
+}
